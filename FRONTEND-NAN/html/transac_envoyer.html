@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/transac_envoyer.css">
+
+        <!--========== CSS MDB Bootstrap ==========-->
+        <!-- <link href="./css/mdb.min.css" rel="stylesheet"> -->
+
+        <title>Sidebar + Header + Main</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="header">
+            <div class="header__container">
+                <img src="../img/boy.png" alt="" class="header__img">
+
+                <a href="#" class="header__logo">NaN</a>
+    
+                <div class="header__search">
+                    <input type="search" placeholder="Rechercher" class="header__input">
+                    <i class='bx bx-search header__icon' style="color: #6871E0;"></i>
+                </div>
+    
+                <div class="header__toggle">
+                    <i class='bx bx-menu' id="header-toggle"></i>
+                </div>
+            </div>
+        </header>
+
+        <!--========== NAV ==========-->
+        <div class="nav" id="navbar">
+            <nav class="nav__container">
+                <div>
+                    <a href="#" class="nav__link nav__logo">
+                        <img src="../img/logo.png"  class="nav__img" alt="">
+                        <span class="nav__logo-name">NaN</span>
+                    </a>
+    
+                    <div class="nav__list">
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Menu</h3>
+    
+                            <a href="#" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Tableau de bord</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Historique</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Envoies</a>
+                                        <a href="#" class="nav__dropdown-item">Receptions</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="#" class="nav__link">
+                                <i class='bx bxs-user-account nav__icon'></i>
+                                <span class="nav__name">Actions</span>
+                            </a>
+                        </div>
+    
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Extra</h3>
+    
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-bell nav__icon' ></i>
+                                    <span class="nav__name">Messages</span>
+                                </a>
+
+                            </div>
+
+                            <a href="#" class="nav__link">
+                                
+                                <i class='bx bx-wallet-alt nav__icon'></i>
+                                <span class="nav__name">Portefueille</span>
+                            </a>
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-compass nav__icon' ></i>
+                                <span class="nav__name">Profile</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link nav__logout">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Déconnexion</span>
+                </a>
+            </nav>
+        </div>
+
+        <!--========== CONTENTS ==========-->
+        <main>
+            <section>
+                <h2>Envoyer de l'argent par mobile money</h2>
+                <hr>
+                <!-- ===========Transation nan transfert=========== -->
+                <div class="div_transaction">
+                    <div class="border_rect_transation">
+                        <h3>NaN transfert</h3>
+                        <div class="div_rectangles">
+                            <input class="rectangle" placeholder="ID du comptes de qui vous voulez recevoir">
+                        </div>
+
+                        <div class="div_rectangles">
+                            <input class="rectangle" placeholder="Montant de la transaction">
+                        </div>
+
+                        <div class="div_rectangles">
+                            <input class="rectangle" placeholder="Confirmer le montant">
+                        </div>
+                        <div  class="div_rectangles">
+                            <button type="submit"><a href="">Envoyer</a></button>
+                        </div>
+                    </div>
+                </div>   
+            </section>
+            <footer class="bg-light text-center text-lg-start" style="width: 70%; margin: auto; padding: 140px;">
+                <!-- Copyright -->
+                <div id="text-footer" class="text-center p-2" style="background-color: #f4f0fa; text-align: center;padding: 7px;  background: white;">
+                    2023 ©  <a class="text-dark" style="color: #6871E0;" href="#">NaN-transfert</a> Tous Droits Réservés
+                </div>
+                <!--fin Copyright -->
+            </footer>
+    
+        </main>
+        <!--========== MAIN JS ==========-->
+        <script src="./js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+/* section */
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* transaction nan transfert*/
+.border_rect_transation{
+    min-width: 55%;
+    padding: 40px;
+    border-radius: 20px;
+}
+.div_transaction{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+.div_rectangles{
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+}
+
+.rectangle {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #6870E0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+input{
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #6870E0;
+}
+button[type="submit"]{
+    background: #6870E0;
+    border: 1px solid #6870E0;
+    border-radius: 5px;
+    width: 45%;
+    padding: 8px;
+}
+button[type="submit"] a{
+    color: white;
+    font-size: 16px;
+}
+

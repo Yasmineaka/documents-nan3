@@ -1,0 +1,46 @@
+/* section */
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* Historique*/
+.div_historiques{
+    padding: 20px;
+}
+.historique img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.historique {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.div_voir_plus, .div_supprimer{
+    margin: 12px;
+    background: #6870E0;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 25px;
+}
+p{
+    margin-left: 12px;
+}
+a{
+    color: white;
+}
+span{
+    color: #6870E0;
+    font-size: 22px;
+}
+.div_voir_plus{
+    background: #008080;
+}
+.div_supprimer{
+    background: #CA2123;
+}

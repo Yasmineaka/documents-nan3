@@ -1,0 +1,84 @@
+/* section */
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* transaction mobile money nan wallet*/
+.border_rect_transation{
+    border: 1px solid #6870E0;
+    min-width: 55%;
+    padding: 40px;
+    border-radius: 20px;
+}
+.div_transaction{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: auto;
+}
+/* *{
+    border: 1px solid;
+} */
+.div_rectangles{
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.lien_rectangle{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: 10px; */
+}
+.rectangle {
+    width: 260px;
+    height: 50px;
+    border: 1px solid #6870E0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*images */
+.rectangle img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    color: #6870E0;
+}
+.rectangle p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #6870E0;
+}
+i{
+    color: #6870E0;
+    font-size: 22px;
+}
+.rectangle p span{
+    color: #6870e089;
+    font-size: 14px;
+}
+/* ou */
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+/* transfert nan-wallet */
+.nan_wallet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

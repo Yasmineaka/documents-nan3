@@ -1,0 +1,221 @@
+/* section */
+section {
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+/* Tableau des soldes*/
+.section_info{
+    display: flex;
+    background: none;
+    padding: 0;
+}
+
+.solde,
+.n_envois,
+.n_reception{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+}
+.solde span,
+.n_envois span,
+.n_reception span{
+    font-size: 40px;
+    color: black;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-top: 12px;
+}
+
+.solde p,
+.n_envois p,
+.n_reception p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.533);
+}
+
+
+/* Historique*/
+.div_historiques{
+    padding: 20px;
+}
+.historique img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.historique {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.div_voir_plus, .div_supprimer{
+    margin: 12px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-top: 25px;
+}
+p{
+    margin-left: 12px;
+}
+a{
+    color: white;
+}
+.historique span{
+    color: #6870E0;
+    font-size: 22px;
+}
+.div_voir_plus{
+    background: #008080;
+}
+.div_supprimer{
+    background: #CA2123;
+}
+
+/* responsivité */
+@media (max-width:1550px){
+    .solde,
+    .n_envois,
+    .n_reception{
+        height: 200px;
+    } 
+    .solde span,
+    .n_envois span,
+    .n_reception span{
+        font-size: 30px;
+    } 
+    .solde p,
+    .n_envois p,
+    .n_reception p{
+        font-size: 20px;
+    } 
+}
+
+@media (max-width:1400px){
+    .solde,
+    .n_envois,
+    .n_reception{
+        border-radius: 30px;
+        width: 100%;
+        height: 200px;
+        margin: 8px;
+    } 
+    .solde span,
+    .n_envois span,
+    .n_reception span{
+        font-size: 23px;
+    } 
+    .solde p,
+    .n_envois p,
+    .n_reception p{
+        font-size: 18px;
+    } 
+    img{
+        height: 25px;
+        width: 25px;
+        margin-top: 12px;
+    }
+}
+@media (max-width:1150px){
+
+        .solde,
+        .n_envois,
+        .n_reception{
+            height: 138px;
+        } 
+        .solde span,
+        .n_envois span,
+        .n_reception span{
+            font-size: 20px;
+        } 
+        .solde p,
+        .n_envois p,
+        .n_reception p{
+            font-size: 16px;
+        } 
+        img{
+            height: 20px;
+            width: 20px;
+            margin-top: 12px;
+        }
+}
+
+@media (max-width:955px){
+ /* ===Tableau des informations==== */    
+    .solde,
+    .n_envois,
+    .n_reception{
+        height: 120px;
+    } 
+    .solde span,
+    .n_envois span,
+    .n_reception span{
+        font-size: 15px;
+    } 
+    .solde p,
+    .n_envois p,
+    .n_reception p{
+        font-size: 13px;
+    } 
+    img{
+        height: 12px;
+        width: 12px;
+        margin-top: 12px;
+    }
+    /* ====Historique===== */
+    .historique img{
+        width: 26px;
+        height: 26px;
+        margin-top: 20px;
+    }
+    .div_voir_plus, .div_supprimer{
+        margin: 1px;
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    .historique p{
+        margin-left: 2px;
+        font-size: 12px;
+    }
+   
+    h2{
+        font-size: 17px;
+    }
+    .historique span{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:850px){
+        /* ===Tableau des informations==== */
+    main{
+        width: 100%;
+    }
+    section {
+        width: 100%;
+        margin: 0rem;
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+        .solde,
+        .n_envois,
+        .n_reception{
+            display: block;
+            text-align: center;
+        } 
+        img{
+            margin-left:10px;
+            margin-top: 19px;
+        }
+    }
